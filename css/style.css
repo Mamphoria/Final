@@ -1,0 +1,117 @@
+
+/* <<< Container >>> */
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* <<<Header>>> */
+
+header{
+    width: 100%;
+    height: 100px;
+    padding: 0px 100px 0px 100px;
+    background-color: #9EAEC5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.header_logo{
+    font-family: 'Rubik';
+    color: #F7F5F2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    background-color: hwb(53 56% 25%);
+    width: 196px;
+    height: 100%;
+    border-radius: 0px 0px 50px 50px;
+    /* padding: 31px 16px 26px 13px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_logo:hover{
+    cursor: pointer;
+    color: black;
+    font-size: 2.5rem;
+    background-color: #f2e161;
+    border-radius: 50%;
+}
+
+.header_nav_elements{
+    display: flex;
+    gap: 47px;
+    margin: 34px 312px 38px 303px;
+    font-family: 'Rubik'; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.active{
+    color: #623932;
+}
+
+.active:hover{
+    border-bottom: 2px solid rgb(98, 57, 50);
+    padding-bottom: 7px;
+}
+
+.artworks,
+.contact{
+    color: #E3F6F6;
+}
+
+.fa-cart-shopping{
+    color: #EDF0F5;
+    font-size: 2.25rem;
+    padding-top: 24px;
+    padding-bottom: 28px;
+}
+
+/* <<< Section >>> */
+
+.section1{
+    width: 100%;
+    height: 678px;
+    background-image: url("../images/section1_bkp.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 281px 126px 280px 127px;
+}
+
+.section1_text{
+    color: #FFFFFF;
+    font-family: 'Rubik'; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 6rem;
+    text-align: center;
+    box-shadow: 0px 0px 0px black;
+    animation: animate 6s 2s;
+}
+
+@keyframes animate{
+    from{
+        color: #FFFFFF;
+        font-size: 6rem;
+        box-shadow: 0px 0px 0px black;
+    }
+
+    to{
+        color: #36caf7;
+        font-size: 6.5rem;
+        box-shadow: inset 0px 0px 20px hwb(53 56% 25%);
+        border-radius: 30px;
+    }
+}
+
+/* <<< Footer >>> */
+
