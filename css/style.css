@@ -7,7 +7,7 @@
     margin: 0 auto;
 }
 
-/* <<<Header>>> */
+/* <<< Header >>> */
 
 header{
     width: 100%;
@@ -58,14 +58,14 @@ header{
     color: #623932;
 }
 
-.active:hover{
-    border-bottom: 2px solid rgb(98, 57, 50);
-    padding-bottom: 7px;
-}
-
 .artworks,
 .contact{
     color: #E3F6F6;
+}
+
+li a:hover{
+    border-bottom: 2px solid rgb(98, 57, 50);
+    padding-bottom: 7px;
 }
 
 .fa-cart-shopping{
@@ -115,3 +115,45 @@ header{
 
 /* <<< Footer >>> */
 
+footer{
+    width: 100%;
+    height: 190px;
+    background-color: #C0BA8F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 77px 100px 77px 100px;
+}
+
+.footer_logo{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #F7F5F2;
+    margin-right: 285px;
+}
+
+.footer_text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #DDDBCB;
+    margin-right: 237px;
+}
+
+.footer_span{
+    text-decoration-line: underline;
+}
+
+footer i{
+    color: white;
+    font-size: 2.25rem;
+    margin-left: 47px;
+}
+
+footer i:hover{
+    font-size: 2.75rem;
+    color: yellow;
+}
