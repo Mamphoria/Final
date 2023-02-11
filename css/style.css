@@ -6,7 +6,7 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 90px;
-    border: 2px solid red;
+    border: 3px solid red;
 }
 
 /* <<< Header >>> */
@@ -14,7 +14,6 @@
 header{
     max-width: inherit;
     width: inherit;
-    /* height: 100px; */
     padding: 0px 100px 0px 100px;
     background-color: #9EAEC5;
     display: flex;
@@ -24,6 +23,7 @@ header{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    border: 3px solid rgb(98, 36, 177);
 }
 
 .header_logo{
@@ -36,7 +36,6 @@ header{
     width: 196px;
     height: 100px;
     border-radius: 0px 0px 50px 50px;
-    /* padding: 31px 16px 26px 13px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,8 +76,6 @@ li a:hover{
 .fa-cart-shopping{
     color: #EDF0F5;
     font-size: 2.25rem;
-    /* padding-top: 24px; */
-    /* padding-bottom: 28px; */
 }
 
 /* <<< Section >>> */
@@ -93,6 +90,7 @@ li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 3px solid rgb(13, 72, 59);
 }
 
 .section1_text{
@@ -130,6 +128,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 77px 100px 77px 100px;
+    border: 3px solid rgb(139, 156, 71);
 }
 
 .footer_logo{
@@ -152,11 +151,14 @@ footer{
     text-decoration-line: underline;
 }
 
-.footer_icons{
-    color: white;
+.footer_icons_div{
     font-size: 2.25rem;
     display: flex;
     gap: 47px;
+}
+
+.footer_icon{
+    color: white;
 }
 
 footer i:hover{
