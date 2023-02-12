@@ -161,7 +161,35 @@ footer{
     color: white;
 }
 
-footer i:hover{
+.footer_icon:hover{
     font-size: 2.75rem;
     color: yellow;
+}
+
+/* <<< Page 2 (artworks) >>> */
+
+.section2_div{
+    width: 996px;
+    height: 276px;
+    background-color: #623932;
+    padding: 35px 38px 28px 34px;
+    text-align: center;
+}
+
+.section2_title{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin-bottom: 41px;
+}
+.section2_text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #FFFFFF;
 }
