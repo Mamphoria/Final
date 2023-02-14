@@ -322,3 +322,29 @@ footer{
     color: rgba(0, 0, 0, 0.64);
 }
 
+.formbox{
+    display: flex;
+    justify-content: space-between;
+    gap: 121px;
+    margin-bottom: 66px;
+}
+
+.user :nth-child(1),
+.mail :nth-child(1){
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #F90E0E;
+}
+
+.user :nth-child(2),
+.mail :nth-child(2){
+    background-color: rgba(237, 240, 245, 0.68);
+    border: none;
+
+}
+
+
+
+
