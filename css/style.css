@@ -23,6 +23,7 @@ header{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 1;
     /* border: 3px solid rgb(98, 36, 177); */
 }
 
@@ -277,6 +278,7 @@ footer{
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     border-radius: 15px;
     padding: 32px 65px 35px 65px;
+    gap: 287px;
 }
 
 .contact_info{
@@ -326,11 +328,21 @@ footer{
     display: flex;
     justify-content: space-between;
     gap: 121px;
-    margin-bottom: 66px;
 }
 
-.user :nth-child(1),
-.mail :nth-child(1){
+.user,
+.mail,
+.textarea{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #FFFFFF;
+    padding-bottom: 44px;
+
+}
+
+.user,
+.mail{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
@@ -338,11 +350,38 @@ footer{
     color: #F90E0E;
 }
 
-.user :nth-child(2),
-.mail :nth-child(2){
-    background-color: rgba(237, 240, 245, 0.68);
-    border: none;
 
+.textarea{
+    width: 587px;
+    height: 147px;
+    border: 3px solid #FFFFFF;
+    border-radius: 8px;
+    margin-top: 44px;
+    margin-bottom: 60px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #F7F5F2;
+}
+
+.submit{
+    width: 283px;
+    height: 88px;
+    background-color: #F90E0E;
+    border: 4px solid #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 0px #FFFFFF;
+    transition: linear .3s;
+}
+
+.submit:hover{
+    background-color: rgb(59, 172, 100);
 }
 
 
