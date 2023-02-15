@@ -324,12 +324,11 @@ footer{
     color: rgba(0, 0, 0, 0.64);
 }
 
-.fullname,
-.email_address{
+.form1{
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    /* gap: 121px;   */
+    flex-direction: row; 
+    gap: 121px;
 }
 
 #user,
@@ -338,10 +337,11 @@ footer{
     border: none;
     outline: none;
     border-bottom: 4px solid #FFFFFF;
-    margin-top: 15px;
+    margin-top: 10px;
+    font-size: 1rem;
 }
 
-label{
+form label{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
@@ -349,19 +349,17 @@ label{
     color: #F90E0E;
 }
 
-
 .message{
-    display: flex;
-    justify-content: space-between;
     width: 587px;
     height: 147px;
     border: 3px solid #FFFFFF;
     border-radius: 8px;
-    margin-top: 44px;
+    margin-top: 66px;
     margin-bottom: 60px;
 }
 
 #message{
+    width: 100%;
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
@@ -371,8 +369,6 @@ label{
     border: none;
     outline: none;
 }
-
-    
 
 .submit{
     width: 283px;
