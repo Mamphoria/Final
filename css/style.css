@@ -324,25 +324,24 @@ footer{
     color: rgba(0, 0, 0, 0.64);
 }
 
-.formbox{
+.fullname,
+.email_address{
     display: flex;
     justify-content: space-between;
-    gap: 121px;
+    flex-direction: column;
+    /* gap: 121px;   */
 }
 
-.user,
-.mail,
-.textarea{
+#user,
+#email{
     background-color: transparent;
     border: none;
     outline: none;
     border-bottom: 4px solid #FFFFFF;
-    padding-bottom: 44px;
-
+    margin-top: 15px;
 }
 
-.user,
-.mail{
+label{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
@@ -351,19 +350,29 @@ footer{
 }
 
 
-.textarea{
+.message{
+    display: flex;
+    justify-content: space-between;
     width: 587px;
     height: 147px;
     border: 3px solid #FFFFFF;
     border-radius: 8px;
     margin-top: 44px;
     margin-bottom: 60px;
+}
+
+#message{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
     color: #F7F5F2;
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
+
+    
 
 .submit{
     width: 283px;
