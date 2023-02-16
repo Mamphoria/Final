@@ -314,7 +314,7 @@ footer{
 .contact_titles{
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 1.5rem;
     color: #623932;
 }
@@ -322,7 +322,7 @@ footer{
 .contact_texts{
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 300px;
     font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.64);
 }
@@ -376,6 +376,7 @@ form label{
     font-size: 1.5rem;
     color: #F7F5F2;
     background-color: transparent;
+    margin: 12px 476px 107px 15px;
     border: none;
     outline: none;
     resize: none;

@@ -113,4 +113,80 @@
         font-size: 1.5rem;
         margin-top: 27px;
     }
+
+    /* <<< Page 3 (Contact) >>> */
+
+    .section4{
+        padding: 40px 0px 40px 0px;
+    }
+
+    .page3_contact{
+        width: 95%;
+        padding: 24px 20px 36px 20px;
+        gap: 66px;
+    }
+
+    .call,
+    .email_us,
+    .address{
+        gap: 22px;
+    }
+
+    .email_us{
+        margin-top: 102px;
+        margin-bottom: 97px;
+    }
+
+    .contact_titles{
+        font-weight: 900px;
+        font-size: 1.25rem;
+    }
+
+    .contact_texts{
+        font-size: 1rem;
+    }
+
+    .form1_top{
+        gap: 29px;
+    }
+
+    .form_label{
+        font-weight: 500px;
+        font-size: 1.25rem;
+    }
+
+    #user,
+    #email{
+        width: 160px;
+    }
+
+    form label{
+        font-weight: 900;
+        font-size: 1.25rem;
+    }
+
+    .message{
+        height: 103px;
+        margin-top: 48px;
+        margin-bottom: 38px;
+    }
+
+    #message{
+        font-size: 1rem;
+        margin: 9px 296px 75px 9px;
+    }
+
+    .submit{
+        width: 60%;
+        height: 65px;
+        font-family: 'Inter';
+    }
+
+
+
+
+    
+
+
+    
 }
