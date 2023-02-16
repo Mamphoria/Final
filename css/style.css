@@ -170,7 +170,7 @@ footer{
 /* <<< Page 2 (artworks) >>> */
 
 .section2_div{
-    width: 996px;
+    width: 69%;
     /* height: 276px; */
     background-color: #623932;
     padding: 35px 38px 28px 34px;
@@ -182,7 +182,7 @@ footer{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #FFFFFF;
     margin-bottom: 41px;
 }
@@ -190,7 +190,7 @@ footer{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 24px;
     text-align: justify;
     color: #FFFFFF;
@@ -256,7 +256,7 @@ footer{
     font-family: 'Inter';
     font-style: italic;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     color: #82625D;
     text-align: center;
     margin-top: 56px;
@@ -266,23 +266,27 @@ footer{
 
 .section4{
     width: 100%;
-    padding: 89px 70px 84px 70px;
+    display: flex;
+    justify-content: space-between;
+    padding: 89px 0px 84px 0px;
     background-color: #6A7B98;
     /* border: 3px solid blue; */
 }
 
 .page3_contact{
+    width: 90%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: auto;
     background: rgba(237, 240, 245, 0.68);
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     border-radius: 15px;
     padding: 32px 65px 35px 65px;
-    gap: 287px;
+    gap: 267px;
 }
 
 .contact_info{
-    width: 100%;
+    width: 50%;
 }
 
 .contact_icons{
@@ -320,14 +324,20 @@ footer{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: rgba(0, 0, 0, 0.64);
 }
 
-.form1{
+.contact_form{
+    width: 50%;
     display: flex;
     justify-content: space-between;
-    flex-direction: row; 
+}
+
+.form1_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
     gap: 121px;
 }
 
@@ -339,6 +349,7 @@ footer{
     border-bottom: 4px solid #FFFFFF;
     margin-top: 10px;
     font-size: 1rem;
+    width: 232px;
 }
 
 form label{
@@ -350,7 +361,7 @@ form label{
 }
 
 .message{
-    width: 587px;
+    width: 100%;
     height: 147px;
     border: 3px solid #FFFFFF;
     border-radius: 8px;
@@ -368,10 +379,11 @@ form label{
     background-color: transparent;
     border: none;
     outline: none;
+    resize: none;
 }
 
 .submit{
-    width: 283px;
+    width: 50%;
     height: 88px;
     background-color: #F90E0E;
     border: 4px solid #FFFFFF;
