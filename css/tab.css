@@ -1,0 +1,116 @@
+@media(max-width: 768px){
+    header{
+        padding: 0px;
+    }
+
+    .header_logo{
+        width: 140px;
+        border-radius: 0px 0px 60px 60px;
+        background: #C0BA8F;
+        font-size: 1.5rem;
+    }
+
+    .header_nav_elements{
+        font-size: 1.25rem;
+        gap: 29px;
+    }
+    
+    .fa-cart-shopping{
+        color: #EDF0F5;
+        font-size: 2rem;
+    }
+
+    /* <<< Section >>> */
+
+    .section1{
+        height: 450px;
+    }
+
+    .section1_text{
+        font-size: 3rem;
+        text-shadow: 0px 0px 0px #FFFFFF
+    }
+
+    @keyframes animate{
+        from{
+            color: #FFFFFF;
+            font-size: 3rem;
+            box-shadow: 0px 0px 0px #FFFFFF;
+        }
+    
+        to{
+            color: #36caf7;
+            font-size: 3.5rem;
+            box-shadow: inset 0px 0px 20px hwb(53 56% 25%);
+            border-radius: 30px;
+        }
+
+    }
+
+    /* <<< Footer >>> */
+
+    footer{
+        height: 150px;
+        padding: 57px 21px 57px 21px;
+    }
+
+    .footer_logo{
+        font-size: 2rem;
+    }
+
+    .footer_text{
+        display: none;
+    }
+
+    .footer_icons_div{
+        font-size: 2rem;
+        gap: 21px;
+    }
+
+    .footer_icon{
+        color: #E3F6F6;
+    }
+
+    .footer_icon:hover{
+        font-size: 2.5rem;
+        color: yellow;
+    }
+
+    /* <<< Page 2 (artworks) >>> */
+
+    .section2_div{
+        width: 90%;
+        padding: 14px 15px 9px 15px;
+    }
+
+    .section2_title{
+        font-size: 1.25rem;
+        margin-bottom: 17px;
+    }
+
+    .section2_text{
+        font-size: 1rem;
+        line-height: 19px;
+    }
+
+    .section3{
+        width: 100%;
+        /* Height: 1328px; */
+        padding: 46px 0px 46px 0px;
+    }
+
+    .card{
+        width: 45%;
+        padding: 22px 18px 27px 18px;
+        margin-top: 90px;
+    }
+
+    .image_div{
+        Height: 210px;
+    }
+
+    .section3 p{
+        font-size: 1.5rem;
+        margin-top: 27px;
+    }
+}

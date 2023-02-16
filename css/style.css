@@ -33,7 +33,7 @@ header{
     font-style: normal;
     font-weight: 700;
     font-size: 2.25rem;
-    background-color: hwb(53 56% 25%);
+    background-color: #bfba8f;
     width: 196px;
     height: 100px;
     border-radius: 0px 0px 50px 50px;
@@ -159,7 +159,7 @@ footer{
 }
 
 .footer_icon{
-    color: white;
+    color: #ffffff;
 }
 
 .footer_icon:hover{
@@ -213,7 +213,6 @@ footer{
     font-weight: 700;
     font-size: 2rem;
     color: #FFFFFF;
-    margin-bottom: 60px;
 }
 
 .cards{
@@ -228,7 +227,7 @@ footer{
     background: #FFFFFF;
     border-radius: 10px;
     padding: 33px 28px 30px 28px;
-    margin-top: 90px;
+    margin-top: 150px;
 }
 
 .card:hover{
@@ -237,7 +236,7 @@ footer{
 }
 
 .image_div{
-    Width: 332px;
+    width: 100%;
     Height: 289px;
     overflow: hidden;
 }
