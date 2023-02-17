@@ -163,8 +163,9 @@ footer{
 }
 
 .footer_icon:hover{
-    font-size: 2.75rem;
-    color: yellow;
+    color: rgb(194, 95, 33);
+    transform: skewY(20deg);
+    transition-duration: 1s;
 }
 
 /* <<< Page 2 (artworks) >>> */
