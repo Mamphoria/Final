@@ -79,6 +79,21 @@ li a:hover{
     font-size: 2.25rem;
 }
 
+.burger_button{
+    font-size: 2rem;
+    color: white;
+    float: right;
+    line-height: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+#burger_bar{
+    display: none;
+}
+
+
 /* <<< Section >>> */
 
 .section1{
@@ -370,8 +385,7 @@ form label{
 }
 
 #message{
-    width: 100%;
-    font-family: 'Rubik';
+    width: 100%;font-family: 'Rubik';
     font-style: normal;
     font-weight: 300;
     font-size: 1.5rem;
@@ -402,7 +416,3 @@ form label{
 .submit:hover{
     background-color: rgb(59, 172, 100);
 }
-
-
-
-
