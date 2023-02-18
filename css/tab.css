@@ -139,16 +139,16 @@
         font-size: 1rem;
     }
 
-    .form1_top{
+    /* .form1_top{
         gap: 29px;
-    }
+    } */
 
     #user,
     #email{
-        width: 160px;
+        width: 170px;
     }
 
-    form label{
+    .form1_top label{
         font-weight: 900;
         font-size: 1.25rem;
     }

@@ -5,7 +5,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 90px;
+    padding-top: 100px;
     /* border: 3px solid red; */
 }
 
@@ -295,10 +295,12 @@ footer{
     background: rgba(237, 240, 245, 0.68);
     border-radius: 15px;
     padding: 32px 65px 35px 65px;
+    /* border: 3px solid rgb(0, 255, 72); */
 }
 
 .contact_info{
     width: 35%;
+    /* border: 3px solid rgb(255, 0, 4); */
 }
 
 .contact_icons{
@@ -306,6 +308,7 @@ footer{
     color: rgb(249, 14, 14);
     box-shadow: none;
     transition: linear .2s;
+    /* border: 3px solid rgb(0, 208, 255); */
 }
 
 .contact_icons:hover{
@@ -317,6 +320,7 @@ footer{
 .address{
     display: flex;
     gap: 40px;
+    /* border: 3px solid rgb(187, 255, 0); */
 }
 
 .email_us{
@@ -342,12 +346,14 @@ footer{
 
 .form1{
     width: 55%;
+    /* border: 3px solid rgb(27, 27, 31); */
 }
 
 .form1_top{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    /* border: 3px solid rgb(255, 123, 0); */
 }
 
 .fullname,
@@ -367,7 +373,7 @@ footer{
     /* width: 232px; */
 }
 
-form label{
+.form1_top label{
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
@@ -382,6 +388,7 @@ form label{
     border-radius: 8px;
     margin-top: 66px;
     margin-bottom: 60px;
+    /* border: 3px solid rgb(217, 0, 255); */
 }
 
 #message{
