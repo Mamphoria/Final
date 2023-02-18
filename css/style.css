@@ -377,7 +377,8 @@ form label{
     font-size: 1.5rem;
     color: #F7F5F2;
     background-color: transparent;
-    margin: 12px 476px 107px 15px;
+    padding-top: 9px;
+    padding-left: 9px;
     border: none;
     outline: none;
     resize: none;
